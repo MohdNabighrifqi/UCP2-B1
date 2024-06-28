@@ -1,0 +1,169 @@
+/* Add your custom styles here */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 24px;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar .social-icons a {
+    color: white;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.video-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+.video-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.video-container .header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.video-container .header-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.video-container .header-content .btn {
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+#about {
+    background-color: #f4f4f4;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+.py-5 .card {
+    margin-bottom: 30px;
+}
+
+.text-white {
+    color: #ffffff !important;
+}
+
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.row.align-items-center {
+    align-items: center;
+}
+
+.btn-warning {
+    transition: transform 0.3s ease;
+}
+
+.btn-warning:hover {
+    transform: scale(1.1); /* Perbesar tombol saat di-hover */
+}
+
+.navbar {
+    transition: background-color 0.3s ease; /* Animasi perubahan warna latar belakang navbar */
+}
+
+.navbar-dark.bg-primary {
+    background-color: #05490c !important; /* Warna latar belakang navbar saat digunakan kelas .bg-primary */
+}
+
+.footer-dark.bg-primary {
+    background-color: #05490c !important; /* Warna latar belakang navbar saat digunakan kelas .bg-primary */
+}
+
+
+
+
+

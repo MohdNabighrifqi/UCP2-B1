@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <a class="navbar-brand" href="#">
+            <img src="Logo.jpeg" alt="Logo" style="max-width: 100px;">
+        </a>
+        <a class="navbar-brand" href="#" style="font-family: Playfair ; font-size: 30px ;">UNIVERSITY OF MISSISSIPPI</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="font-size: 20px;">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" style="color: white;">Home</a>   
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html" style="color: white;">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" style="color: white;">Contact</a>
+                </li>
+            </ul>
+            <div class="navbar-nav ml-2">
+                <a class="nav-item nav-link" href="https://www.facebook.com" target="_blank" style="color: white;"><i class="fab fa-facebook-f"></i></a>
+                <a class="nav-item nav-link" href="https://www.twitter.com" target="_blank" style="color: white;"><i class="fab fa-twitter"></i></a>
+                <a class="nav-item nav-link" href="https://www.instagram.com" target="_blank" style="color: white;"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3 text-center py-5">
+            <h1>Contact Us</h1>
+            <p>Welcome to our contact page. Please fill out the form below to get in touch with us.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 offset-md-3 custom-bg">
+            <form class="contact-form" id="contactForm" style="color: white;">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" name="Message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="row mt-5 bg-dark text-white custom-bg py-3">
+        <div class="col-md-6">
+            <h2>Contact Information</h2>
+            <p>Feel free to reach out to us via phone or email.</p>
+            <p><strong>Phone:</strong> <a href="https://wa.me/1234567890" target="_blank" class="text-white">+1234567890 (WhatsApp)</a></p>
+            <p><strong>Email:</strong> <a href="mailto:info@university.com" class="text-white">info@university.com</a></p>
+        </div>
+        <div class="col-md-6">
+            <h2>Visit Us</h2>
+            <p>Find us on the map:</p>
+            <div class="map-container">
+                <!-- Replace with your own Google Maps embed code -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.680320403438!2d106.79230181431019!3d-6.200409695491664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f05760d38579%3A0xd0b5e99c5c5f221e!2sUniversitas%20Example!5e0!3m2!1sen!2sid!4v1624875115672!5m2!1sen!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-primary footer-dark text-white text-center py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="Logo.jpeg" alt="Logo" style="max-width: 100px;">
+            </div>
+            <div class="col-md-3">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="index.html" class="text-white">Home</a></li>
+                    <li><a href="about.html" class="text-white">About</a></li>
+                    <li><a href="contact.html" class="text-white">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Contact</h5>
+                <ul class="list-unstyled">
+                    <li>Email: <a href="mailto:info@university.com" class="text-white">info@university.com</a></li>
+                    <li>Phone: <a href="https://wa.me/1234567890" target="_blank" class="text-white">WhatsApp Us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Follow Us</h5>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com" target="_blank" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com" target="_blank" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+<script src="js/contact.js"></script>
+
+</body>
+</html>
