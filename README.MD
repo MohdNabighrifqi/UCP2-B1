@@ -4,17 +4,17 @@ Proyek ini adalah situs web untuk Universitas yang mencakup berbagai fitur seper
 
 ## Kelompok B1
 
-- Mohd Nabigh Rifqi
+###Mohd Nabigh Rifqi
 - 20220140067
 
-- Muhammad Khalif Rasyidi
+###Muhammad Khalif Rasyidi
 - 20220140062
 
-- Fauzan Althaf Rianto
+###Fauzan Althaf Rianto
 - 20220140068
 
-- Dzaky Hanif Annafi
+###Dzaky Hanif Annafi
 - 20220140077
 
-- Muhammad Zhafran Widyatama
-- 202201400
+###Muhammad Zhafran Widyatama
+- 20220140079
